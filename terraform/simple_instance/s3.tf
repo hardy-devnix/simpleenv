@@ -9,9 +9,9 @@ resource "aws_s3_bucket" "prismaclouds3" {
   tags = {
     Name                 = "Prisma Cloud"
     Environment          = "Dev"
-    git_commit           = "a11f1099c1fe4f6762553b7ba1ee665166d8a3cb"
+    git_commit           = "4a11d69f27576730dec5d7530a9258fbbd899c8e"
     git_file             = "terraform/simple_instance/s3.tf"
-    git_last_modified_at = "2023-07-05 04:53:50"
+    git_last_modified_at = "2023-07-05 05:29:42"
     git_last_modified_by = "38286138+hardy-devnix@users.noreply.github.com"
     git_modifiers        = "38286138+hardy-devnix"
     git_org              = "hardy-devnix"
